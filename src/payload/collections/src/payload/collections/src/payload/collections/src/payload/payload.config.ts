@@ -21,4 +21,6 @@ export default buildConfig({
   graphQL: {
     schemaOutputFile: path.resolve(__dirname, 'generated-schema.graphql'),
   },
+    mongoURL: process.env.MONGODB_URI || 'mongodb://localhost/productividad-ia',
+  secret: process.env.PAYLOAD_SECRET || 'default-secret',
 })
