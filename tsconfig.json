@@ -18,6 +18,7 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": [""docs", "src/payload", node_modules"]
+    "exclude": ["docs", "src/payload", "node_modules"]
 
 }
+
